@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Select Oblige Re-Translation Patch</title>
+  <meta name="description" content="An unofficial re-translation patch for Select Oblige that replaces the existing English script with a revised translation." />
+  <meta property="og:title" content="Select Oblige Re-Translation Patch" />
+  <meta property="og:description" content="An unofficial re-translation patch for Select Oblige." />
+  <meta property="og:image" content="images/cover.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#111111" />
+  <style>
+    :root {
+      --bg: #0f0f12;
+      --panel: #17171c;
+      --panel-2: #1f1f26;
+      --text: #f2f2f4;
+      --muted: #b7b7c2;
+      --accent: #d9a441;
+      --border: #2b2b35;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(100%, 1000px);
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 28px;
+      align-items: start;
+      margin-bottom: 36px;
+    }
+
+    .cover {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--panel);
+      display: block;
+    }
+
+    .hero-text h1 {
+      margin: 0 0 12px;
+      font-size: 2.2rem;
+      line-height: 1.15;
+    }
+
+    .hero-text p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 1.02rem;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--panel-2);
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .button.primary {
+      background: var(--accent);
+      color: #111;
+      border-color: var(--accent);
+    }
+
+    .section {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px;
+      margin-bottom: 18px;
+    }
+
+    .section h2 {
+      margin: 0 0 14px;
+      font-size: 1.3rem;
+    }
+
+    ul, ol {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-align: center;
+    }
+
+    @media (max-width: 760px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-text h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <img src="images/cover.jpg" alt="Select Oblige cover" class="cover" />
+
+      <div class="hero-text">
+        <h1>Select Oblige Re-Translation Patch</h1>
+        <p>
+          An unofficial fan patch that replaces the existing English script of
+          <strong>Select Oblige</strong> with a revised re-translation.
+        </p>
+
+        <div class="buttons">
+          <a class="button primary" href="https://github.com/momo-mods/SORETL/releases/latest">Download</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Features</h2>
+      <ul>
+        <li>Replaces the original English translation with an updated re-translation.</li>
+        <li>Improves consistency in terminology, character names, and phrasing across the game.</li>
+        <li>Fixes a range of errors and awkward lines found in the original English script.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>How to Install</h2>
+      <ol>
+        <li>Download and run <code>SORETL.exe</code>.</li>
+        <li>Confirm the detected <code>Select Oblige</code> game folder or browse to it manually.</li>
+        <li>Click <strong>Install</strong>.</li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2>Uninstall</h2>
+      <ol>
+        <li>Remove the <code>script</code> folder from the game folder.</li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2>Disclaimer</h2>
+      <p>
+        This is an unofficial, non-commercial fan patch. All rights to the original
+        game and its assets belong to Madosoft and the relevant publisher, HIKARI FIELD.
+        This project is not affiliated with or endorsed by any of them.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Donation</h2>
+      <p>
+        If you would like to support me, you can do so via
+        <a href="https://www.patreon.com/cw/momo_mods">Patreon</a>.
+      </p>
+    </section>
+  </div>
+</body>
+</html>
