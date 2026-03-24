@@ -2,12 +2,12 @@
 
 ![Select Oblige cover](images/cover.jpg)
 
-Replaces the English Select Oblige with a re-translation for the English language.
+Replaces the existing English script of Select Oblige with a revised re-translation.
 
 ## Features 
-- Replace the old EN translation of the game with an updated one.
-- Consistency with ASC-II and ingame terminology.
-- Fixes some errors and mistakes found across the old
+- Replaces the original English translation with an updated re-translation.
+- Improves consistency in terminology, character names, and phrasing across the game.
+- Fixes a range of errors and awkward lines found in the original English script.
 
 ## How to Install
 ### Auto Installer
@@ -17,7 +17,7 @@ Replaces the English Select Oblige with a re-translation for the English languag
 
 ### Manual Install
 1. Download and extract the `patch_manual` zip
-2. Locate and find Sanoba Witch's game folder
+2. Locate and find Select Oblige's game folder
 3. Copy over `script` folder to the game folder
 
 ### Uninstall 
