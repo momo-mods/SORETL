@@ -9,16 +9,10 @@ Replaces the existing English script of Select Oblige with a revised re-translat
 - Improves consistency in terminology, character names, and phrasing across the game.
 - Fixes a range of errors and awkward lines found in the original English script.
 
-## How to Install
-### Auto Installer
+### How to Install
 1. Download and run `SORETL.exe`
 2. Confirm the detected `Select Oblige` game folder or browse to it manually
 3. Click `Install`
-
-### Manual Install
-1. Download and extract the `patch_manual` zip
-2. Locate and find Select Oblige's game folder
-3. Copy over `script` folder to the game folder
 
 ### Uninstall 
 1. Remove `script` folder from the game folder
